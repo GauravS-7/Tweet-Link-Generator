@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <meta
+      name="description"
+      content="Your place to get started with semantic web development"
+    />
+    <title>Tweet This</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="container">
+      <hgroup>
+        <h1>Tweet link Generator</h1>
+        <p>Generate a custom Tweet link.</p>
+      </hgroup>
+    </header>
+    <main class="container">
+      <input type="text" id="tweetMsg" placeholder="Write your tweet here" />
+      <input type="submit" id="genBtn" value="Generate Tweet Link" />
+
+      <p id="app"></p>
+    </main>
+    <footer class="container neog-footer">
+      <small>
+        go from zero to hero at full stack development with
+        <a href="https://neog.camp">neog.camp</a>
+      </small>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
